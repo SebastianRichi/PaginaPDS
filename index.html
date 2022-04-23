@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Publicar</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+
+            <header>
+                Publicar
+            </header>
+
+            <div class="all">
+
+            <aside class="barraLateral">
+                <div id="principales">
+                    <h1 id="tituloPrincipales">Principales    </h1>
+                    <nav id="botonesPricipalesBarraLateral">
+                        <ul>
+                            <li>
+                                <a href="index.html" class="botones">Inicio<a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="botones">Publicar</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="botones">Publicaciones</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="categorias">
+                    <h1 id="tituloCategorias">Categorias     </h1>
+                    <nav id="botonesCategoriasBarraLateral">
+                        <ul>
+                            <li>
+                                <a href="index.html" class="botones">Salud</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="botones">Genero</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="botones">Edad</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="botones">Salario</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </aside>
+
+            <section class="contenidoPrincipal">
+
+                <div id="cajonPublicar">
+                    <img src="descarga.jpeg">
+                    
+                    <h1>Pon tu testimonio</h1>
+                    <p>Benito Martinez</p>
+
+                    <input type="text" id="testimonio" />
+
+                    <input list = "categoriasCajonPublicar" id = "categoriasCajon"/>
+                    <datalist id="categoriasCajonPublicar">
+                        <option value = "Salud">
+                        <option value = "Genero">
+                        <option value = "Edad">
+                        <option value = "Salario">
+                        </datalist>
+                    
+                    
+                    <input type="button" id="button" value="Publicar"/>
+                    
+                </div>
+
+                <div id="cajonPublicaciones">
+                    <img src="descarga.jpeg">
+
+                    <p>Benito Martinez</p>
+
+                    <input type="date" id="fechaDePublicacion">
+
+                    <div id="publicacionDeTestimonio">
+                        
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+        <script src="main.js"></script>
+
+    </body>
+</html>
